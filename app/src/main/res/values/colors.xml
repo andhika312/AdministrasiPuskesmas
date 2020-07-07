@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6902D6</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorHome">#00FF0F</color>
+    <color name="colorPendaftaran">#F5B041</color>
+    <color name="colorProfile">#85929E</color>
+</resources>

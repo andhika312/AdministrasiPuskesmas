@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.pendaftaran.PendaftaranFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/alegreya_sc_bold"
+            android:text="Registrasi Medical Check"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/et_NamaL"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Nama Lengkap"
+            android:textColorHint="#9E9E9E"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/ic_box"
+            android:padding="20dp"
+            />
+        <EditText
+            android:id="@+id/et_JenisK"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Jenis Kelamin"
+            android:textColorHint="#9E9E9E"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_box"
+            android:padding="20dp"
+            />
+        <EditText
+            android:id="@+id/et_Usia"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Usia"
+            android:textColorHint="#9E9E9E"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_box"
+            android:padding="20dp"
+            />
+        <EditText
+            android:id="@+id/et_Alamat"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Alamat"
+            android:textColorHint="#9E9E9E"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_box"
+            android:padding="20dp"
+            />
+        <Button
+            android:id="@+id/btn_Daftar"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_button"
+            android:text="Daftar"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+</LinearLayout>
